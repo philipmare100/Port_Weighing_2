@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import pytz
+import openpyxl
 
 # Streamlit app title
 st.title("Port Weighing Supervision - Data Extraction and Combined DataFrame")

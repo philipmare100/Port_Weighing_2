@@ -2,10 +2,9 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import pytz
-import openpyxl
 
 # Streamlit app title
-st.title("Port Sampling Supervision - Data Extraction and Combined DataFrame")
+st.title("Port Weighing Supervision - Data Extraction and Combined DataFrame")
 
 # South Africa timezone setup
 sa_timezone = pytz.timezone('Africa/Johannesburg')
